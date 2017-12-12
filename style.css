@@ -1,0 +1,163 @@
+@charset "UTF-8";
+
+
+.bg {
+		  background-color: #012f24;
+	  }
+	  .nav-logo-div{
+		  text-align: center;
+		  height: 100%;
+		  width: 100%;
+	  }
+	  .slider-img{
+		  text-align: center;
+		  height: 100%;
+		  width: 100%;
+		  margin-top: 3em;
+	  }
+
+	  .footer-div{
+
+		  color: whitesmoke;
+	  }
+
+
+
+	  .page-container{
+		  margin-left: 1em;
+		  margin-right: 1em;
+		  margin-bottom: 3em;
+		  margin-top: 3em;
+		  height: 100%;
+	  }
+
+	  
+
+
+	.footer-box-container {
+		  
+		  text-align: center;
+		margin-left: 1em;
+		margin-right: 1em;
+	}
+	.footer-box-container div { 
+
+
+		  font-size: 13px;
+	}
+	.footer-box-container div.address { 
+		width: 100%; 
+		display: inline-grid;
+	
+	}
+	.footer-box-container div.phone { 
+		width: 100%; 
+		display: inline-grid;
+
+	}
+	.footer-box-container div.email {
+		width: 100%; 
+		display: inline-grid;
+	
+	}
+	
+	  .foot-head {
+		  font-size: 16px;
+		  font-weight: bold;
+		  background-color:#014837;
+		  margin-bottom: 0;
+	  }
+	  
+	  .img-right-margin{
+		  margin-right: 7px;
+	  }
+	  .chairman-div{
+		  margin-top: 1em;
+
+	  }
+	  .margin-bottom-0
+	  {
+		  margin-bottom: 0;
+	  }
+
+	  	  .margin-top-1em
+	  {
+		  margin-top: 1em;
+	  }
+	  	  .margin-top-2em
+	  {
+		  margin-top: 2em;
+	  }
+	  	  .margin-top-3em
+	  {
+		  margin-top: 3em;
+	  }
+
+.control-label:after { 
+    color: #d00;
+    content: "*";
+    position: absolute;
+    margin-left: 8px;
+}
+
+.team-img{
+	height: 120px;
+	width: 120px;
+	border-radius: 100%;
+}
+.team-block{
+	margin-bottom: 2em;
+	margin: 0 auto;
+}
+
+.team-block1{
+	margin-bottom: 2em;
+	margin: 0 auto;
+}
+  
+
+	  
+	@media only screen and (min-width: 991px) {
+	
+	.footer-box-container div.address { 
+		  width: 25%; 
+		}
+	.footer-box-container div.phone { 
+		  width: 25%; 
+		}
+	.footer-box-container div.email { 
+		  width: 25%; 
+		}
+	.page-container{
+		  margin-left: 10em;
+		  margin-right: 10em;
+	  }
+	  .chairman-div{
+		  margin-top: 1em;
+		  margin-left: 5em;
+		  margin-right: 5em;
+	  }
+	
+	.contact-page-container{
+		width: 70%;
+		margin: 0 auto;
+
+	  }
+	.team-block{
+	width: 70%;
+	}
+	.team-block1{
+	width: 90%;
+	}
+		.nav-item{
+			margin-right: 1em;
+			margin-top: 1em;
+			margin-bottom: 1em;
+			padding: 1em;
+			border: 3px dashed darkgreen;
+			border-radius: 100px;
+			font-size: 15px;
+		}
+		
+		
+	}

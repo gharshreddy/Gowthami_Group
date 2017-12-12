@@ -1,0 +1,140 @@
+<!DOCTYPE html>   
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Gowthami Group - Apply</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="animate.css">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+ 
+<!-- Nav Start -->
+  <div class="nav-logo-div bg">
+ 	<a href="index.html"><img src="images/logo.jpg" alt="Gowthami Group Logo"></a>
+ </div>
+<nav class="navbar navbar-expand-lg navbar-dark bg">
+  <a class="navbar-brand"></a>
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navb">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse text-center" id="navb">
+    <ul class="navbar-nav mr-auto mx-auto">
+      <li class="nav-item font-weight-bold">
+        <a class="nav-link" href="about.html">About</a>
+      </li>
+      <li class="nav-item font-weight-bold">
+        <a class="nav-link" href="projects.html">Projects</a>
+      </li>
+     
+      <li class="nav-item active font-weight-bold">
+        <a class="nav-link" href="careers.html">Careers</a>
+      </li>
+      <li class="nav-item font-weight-bold">
+        <a class="nav-link" href="contact.html">Contact</a>
+      </li> 
+    </ul>
+  </div>
+</nav>
+<!-- Nav End -->
+<div class="page-container">
+<h3 class="text-center margin-top-1em">Apply Form</h3>
+
+<form id="contact-form" class="contact-page-container mx-auto" method="post" action="apply.html">
+<div class="container">
+    <div class="messages"></div>
+
+    <div class="controls">
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label class="control-label" for="form_name">First Name:</label>
+                    <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname" required="required" data-error="Firstname is required.">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label class="control-label" for="form_lastname">Last Name:</label>
+                    <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname" required="required" data-error="Lastname is required.">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label class="control-label" for="form_email">Email:</label>
+                    <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email" required="required" data-error="Valid email is required.">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label class="control-label" for="form_phone">Phone Number:</label>
+                    
+                    <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone" required="required" data-error="Phone Number is required.">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+             <div class="col-md-6">
+                <div class="form-group required">
+					<label class="control-label" for="form_title">Job Title:</label>
+                    <input id="form_title" type="text" name="phone" class="form-control" placeholder="Please enter the job title you're appyling for" required="required" data-error="Job title is required.">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+            <div class="col-md-6">
+            	  <div class="form-group">
+   	 <label for="FormControlFile1">Upload your resume.</label>
+    <input type="file" class="form-control-file" id="FormControlFile1">
+  </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+            </div>
+            <div class="col-md-12 text-center">
+                <input type="submit" class="btn btn-success btn-send" value="Apply">
+            </div>
+        </div>
+
+    </div>
+</div>
+</form>
+
+</div>
+
+<!-- Footer Start -->
+<footer class="margin-bottom-0">
+
+
+ <div class="footer-div bg text-center">
+ <div class="footer-box-container margin-top-2em">
+<br/><div class="address"><p class="foot-head">Gowthami Group</p><p>Door No: #48-3-6, Gowthami Complex,
+	Srinagar, Visakhapatnam - 530016</p></div>
+<div class="phone"><p class="foot-head">Phone</p><a class="text-white" href="tel:+919866636279">+919866636279</a></div>
+	 <div class="email"><p class="foot-head">Email</p><a class="text-white" href="mailto:info@gowthamigroup.com">info@gowthamigroup.com</a>
+</div>
+<br/>
+</div>
+<div class="copyright-div bg">    
+       <p class="margin-bottom-0 margin-top-2em">©2017 Gowthami Group.</p>     
+        <p><a class="text-white" href="privacy.html">Privacy Policy |</a><a class="text-white" href="contact.html"> Contact</a></p>
+        <br/>
+
+	</div>
+</div>
+</footer>
+<!-- Footer End -->
+
+  <script src="bootstrap/jquery.min.js"></script>
+  <script src="bootstrap/popper.min.js"></script>
+  <script src="bootstrap/bootstrap.min.js"></script>
+  <script src="animateHover.js"></script>
+</body>
+</html>
